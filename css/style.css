@@ -1,0 +1,104 @@
+.nombreMaria {
+    
+    height: 300px;
+    border-radius: 40%; 
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+align-items: center;
+}
+
+
+.brevedescripcion {
+    
+    border: 100px;
+    padding: 10px;
+    margin: 100px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large;
+    align-items: center;
+    justify-content: center;    
+    color: black;
+    border-collapse: collapse;
+    text-align: center;
+    flex-grow: 1;
+
+
+}
+
+.descripciontabla{
+    background-color:khaki;
+    width:400px;
+
+    border: 20px;
+    padding: 20px;
+    margin: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    margin: auto;
+    color: black;
+    border-collapse: collapse;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    border-radius: 20%;
+    flex-wrap: nowrap;
+    
+
+
+}
+
+
+Body {
+   background-color:antiquewhite;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+height: 1000px;
+flex-wrap: nowrap;
+
+
+
+}
+.imagenesencolumnas{
+height: auto;
+width: auto;
+border: 40px ;
+margin: 40px;
+padding: 10px;
+flex-wrap:nowrap;
+object-fit: cover;
+
+
+
+
+
+}
+
+
+.fotos {
+    height: 300px;
+    width: 300px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    border:20px;
+    
+
+
+}
+
+
+
+
+
+
+.hashtag{
+font-size: large;
+list-style-type: none;
+color: black;
+justify-content: center;
+
+}
