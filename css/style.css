@@ -45,9 +45,7 @@ align-items: center;
     flex-grow: 1;
     border-radius: 20%;
     flex-wrap: nowrap;
-    
-
-
+  
 }
 
 
@@ -56,21 +54,19 @@ Body {
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align: center;
 height: 1000px;
-flex-wrap: nowrap;
+flex-wrap: wrap;
 
 
 
 }
 .imagenesencolumnas{
-height: auto;
-width: auto;
+
 border: 40px ;
 margin: 40px;
 padding: 10px;
-flex-wrap:nowrap;
+flex-wrap:wrap;
 object-fit: cover;
-
-
+flex-direction: row;
 
 
 
@@ -79,20 +75,14 @@ object-fit: cover;
 
 .fotos {
     height: 300px;
-    width: 300px;
-    aspect-ratio: 1/1;
+    width: 300px ;
+    
     object-fit: cover;
     flex-wrap: nowrap;
     object-fit: cover;
     border:20px;
     
-
-
 }
-
-
-
-
 
 
 .hashtag{
